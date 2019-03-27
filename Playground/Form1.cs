@@ -13,8 +13,6 @@ namespace Playground
     public partial class Form1 : Form
     {
 
-        Label label;
-
         public Form1()
         {
             InitializeComponent();
@@ -29,12 +27,8 @@ namespace Playground
         private void button2_Click(object sender, EventArgs e)
         {
             this.label1.Text = "Otwarto formularz pracowników";
-            Employeeform employeeform = new Employeeform("Justyna Kras");
+            Employeeform employeeform = new Employeeform("Maciej Kowalski");
             employeeform.Show();
-
-
-
-
         }
     }
 }
